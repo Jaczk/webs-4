@@ -1,0 +1,103 @@
+header{
+    display: inline;
+}
+.topnav {
+    position: fixed;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    z-index: 1;
+    padding: 4px 10px;
+    transition: 0.5s ease-in-out;
+}
+.scrolled-active {
+    background-color:white;
+}
+.topnav ul {
+    list-style-type: none;
+    padding: 2px;
+}
+.topnav ul li{
+    display: inline-block;
+    font-weight: bold;
+}
+.topnav ul li a{
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 15px;
+    transition: 0.5s ease-in-out;
+}
+.topnav ul li a:hover {
+    font-size: 25px;
+    font-weight: bold;
+}
+.topnav-left ul li a:hover {
+    font-weight: bold;
+    font-size: 21px;
+}
+.scrolled-active ul li a{
+    font-size: 17px;
+}
+.scrolled-active ul li a:hover {
+    font-size: 19px;
+    
+}
+.topnav-left {
+    float: right;
+}
+.topnav-left li{
+    padding: 1px;
+    margin: 1px solid black;
+}
+.bulletin{
+    width: 100%;
+    height: 500px;
+    background: url('https://img-global.cpcdn.com/recipes/2befb17eaae5cde9/1200x630cq70/photo.jpg') no-repeat ;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.bulletin > .description {
+    inset: 0;
+    display: flex;
+    position: absolute;
+    font-size: 2.5em;
+    line-height: 2em;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255,255,255,0.7);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+.botnav{
+   background-color: #1E3163;
+   z-index: 1;
+   padding: 5px;
+   color: #ffffff;
+   position: sticky;
+   top: 60px;
+}
+.botnav a{
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+a:hover{
+    color: #E9896A;
+    cursor: pointer;
+    font-size: 23px;
+}
+.botnav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    position: sticky;
+}
